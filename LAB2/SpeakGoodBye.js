@@ -1,7 +1,11 @@
-var speakWord = "Good Bye";
+var SpeakGoodBye = (function () {
+  var speakWord = "Good Bye";
 
+  function speak(name) {
+    console.log(speakWord + " " + name);
+  }
 
-function speak(name) {
-  console.log(speakWord + " " + name);
-}
-
+  return {
+    speak
+};
+})();
