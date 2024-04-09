@@ -44,10 +44,10 @@
     startGame(timerValue, color, maxX, maxY);
   });
 
-  function startGame(initialTimerValue, color, maxX, maxY) {
+  function startGame(timerValue, color, maxX, maxY) {
     clearInterval(countdown);
 
-    let remainingTime = initialTimerValue;
+    let remainingTime = timerValue;
     scoreDisplay.innerText = "Score: " + score;
     timerDisplay.style.display = "block";
     scoreDisplay.style.display = "block";
@@ -79,11 +79,11 @@
 
     const randomX =
       Math.floor(
-        Math.random() * Math.min(gameContainer.clientWidth / 50, maxX + 1)
+        Math.random() * Math.min(gameContainer.clientWidth / 50, maxX)
       ) * 50;
     const randomY =
       Math.floor(
-        Math.random() * Math.min(gameContainer.clientHeight / 50, maxY + 1)
+        Math.random() * Math.min(gameContainer.clientHeight / 50, maxY)
       ) * 50;
 
     pixel.style.left = randomX + "px";
