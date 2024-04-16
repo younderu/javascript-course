@@ -25,6 +25,8 @@
       } else {
         alert("Ви перемогли, але є кращий шлях");
       }
+      moves = 0;
+      displayGrid(fileName);
     }
   }
 
