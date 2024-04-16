@@ -57,7 +57,7 @@
     moveElem.innerText = `Moves: ${moves}`;
 
     const targetMoves = document.getElementById("targetMoves");
-    targetMoves.innerText = `Target: ${data.steps}`;
+    targetMoves.innerText = `Target: ${data.minSteps}`;
 
     if (!data) return;
 
@@ -70,7 +70,7 @@
         cellElement.id = `cell-${rowIndex}-${colIndex}`;
         cellElement.className = `cell ${cell === 1 ? "active" : ""}`;
         cellElement.addEventListener("click", () => {
-          cellClick(rowIndex, colIndex, data.steps);
+          cellClick(rowIndex, colIndex, data.minSteps);
         });
         gridContainer.appendChild(cellElement);
       });
