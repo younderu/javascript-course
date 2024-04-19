@@ -38,12 +38,10 @@
         maxY = 5;
         timerValue = 3;
     }
-
     modeContainer.style.display = "none";
     console.log(window);
     startGame(timerValue, color, maxX, maxY);
   });
-
   function startGame(timerValue, color, maxX, maxY) {
     clearInterval(countdown);
 
