@@ -1,0 +1,29 @@
+{
+    "categoryName": "Мода",
+    "items": [
+      {
+        "id": 1,
+        "name": "Сорочка Zara",
+        "description": "Сорочка",
+        "price": 1100
+      },
+      {
+        "id": 2,
+        "name": "Штани за 40 гривень",
+        "description": "І без опису зрозуміло",
+        "price": 40
+      },
+      {
+        "id": 3,
+        "name": "Футболка",
+        "description": "Для футболу",
+        "price": 600
+      },
+      {
+        "id": 4,
+        "name": "Носки",
+        "description": "Носочки",
+        "price": 90
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Електроніка",
+      "shortname": "electronics",
+      "notes": "Категорія електроніки"
+    },
+    {
+      "id": 2,
+      "name": "Мода",
+      "shortname": "fashion",
+      "notes": "Категорія моди"
+    },
+    {
+      "id": 3,
+      "name": "Книги",
+      "shortname": "books",
+      "notes": "Категорія книг"
+    },
+    {
+        "id": 4,
+        "name": "Їжа",
+        "shortname": "food",
+        "notes": "Категорія книг"
+      }
+  ]
+  

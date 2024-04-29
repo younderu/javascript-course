@@ -1,0 +1,29 @@
+{
+    "categoryName": "Їжа",
+    "items": [
+    {
+        "id": 1,
+        "name": "Бульба",
+        "description": "Не Тарас",
+        "price": 50
+    },
+    {
+        "id": 2,
+        "name": "Борщик",
+        "description": "Смаколик",
+        "price": 150
+      },
+      {
+        "id": 3,
+        "name": "Варенички",
+        "description": "Смакота",
+        "price": 100
+      },
+      {
+        "id": 4,
+        "name": "Сало",
+        "description": "Сало сало українське сало",
+        "price": 200
+      }
+    ]
+  }
