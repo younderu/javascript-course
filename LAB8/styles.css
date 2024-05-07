@@ -86,8 +86,8 @@ a {
 /* llllllllllllllllllll */
 .carousel {
     position: relative;
-    width: 90%; /* або будь-який інший відсоток */
-    max-width: 800px; /* або будь-яка інша фіксована ширина */
+    width: 90%; 
+    max-width: 800px;
     overflow: hidden;
     z-index: 0;
     margin: 0 auto;
@@ -153,7 +153,6 @@ a {
     }
   }
 
-  /* Стилі для Medium-пристроїв */
   .medium-img {
     display: none;
   }
