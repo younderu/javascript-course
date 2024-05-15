@@ -20,8 +20,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       categoryLink.textContent = category.name;
       categoryLink.href = `#${category.shortname}`;
       categoryLink.classList.add("d-block");
-      categoryLink.addEventListener("click", (event) => {
-        event.preventDefault();
+      categoryLink.addEventListener("click", () => {
         displayItems(category.shortname);
         categoriesContainer.style.display = "none";
       });
@@ -33,8 +32,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     specialsLink.textContent = "Specials";
     specialsLink.href = "#specials";
     specialsLink.classList.add("d-block", "font-weight-bold");
-    specialsLink.addEventListener("click", (event) => {
-      event.preventDefault();
+    specialsLink.addEventListener("click", () => {
       renderSpecials();
       categoriesContainer.style.display = "none";
     });
