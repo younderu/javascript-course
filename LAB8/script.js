@@ -15,13 +15,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const nextBtn = document.querySelector(".next");
   let slideIndex = 0;
 
-  function nextItem(n) {
-    showItems((slideIndex += n));
+ function nextItem(n) {
+    slideIndex += n;
+    showItems(slideIndex);
   }
 
   function currentSlide(n) {
-    showItems((slideIndex = n));
+    slideIndex = n;
+    showItems(slideIndex);
   }
+
 
   function loadItems() {
     fetch("data/items.json")
