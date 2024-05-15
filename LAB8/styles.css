@@ -49,7 +49,6 @@ a {
     margin-left: 5rem;
 }
 
-
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
@@ -93,7 +92,6 @@ a {
     margin: 0 auto;
 }
 
-  
   .items {
     display: flex;
   }
@@ -150,7 +148,6 @@ a {
       display: block;
       margin-top: 20px;
       max-width: 80%;
-
     }
   }
 
