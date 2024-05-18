@@ -64,9 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
       slideIndex = items.length - 1;
     }
 
-    items.forEach((slide, index) => {
-      slide.style.display = index === slideIndex ? "block" : "none";
-    });
+    itemsContainer.style.transform = `translateX(${-slideIndex * 100}%)`;
 
     indicators.forEach((indicator, index) => {
       indicator.classList.toggle("active", index === slideIndex);
