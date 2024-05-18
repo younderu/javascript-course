@@ -92,14 +92,17 @@ a {
     margin: 0 auto;
 }
 
-  .items {
-    display: flex;
-  }
-  
-  .items img {
-    width: 100%;
-    height: auto;
-  }
+ .items {
+  display: inline-block; 
+  white-space: nowrap;   
+  transition: transform 0.5s ease-in-out;
+}
+
+.items img {
+  width: 100%;
+  height: auto;
+  display: inline-block; 
+}
   
   button {
     position: absolute;
