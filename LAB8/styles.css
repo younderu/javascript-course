@@ -6,6 +6,8 @@
 }
 
 
+
+
 li {
     list-style: none;
 }
@@ -48,11 +50,13 @@ a {
 .nav-item {
     margin-left: 5rem;
 }
+
 .nav-icon {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-  }
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
 
 .nav-logo {
     font-size: 2.1rem;
@@ -89,15 +93,15 @@ a {
 
 /* llllllllllllllllllll */
 .carousel {
-    position: relative;
-    width: 90%; 
-    max-width: 800px;
-    overflow: hidden;
-    z-index: 0;
-    margin: 0 auto;
+  position: relative;
+  width: 90%; 
+  max-width: 800px;
+  overflow: hidden;
+  z-index: 0;
+  margin: 0 auto;
 }
 
- .items {
+.items {
   display: inline-block; 
   white-space: nowrap;   
   transition: transform 0.5s ease-in-out;
@@ -108,42 +112,42 @@ a {
   height: auto;
   display: inline-block; 
 }
-  
-  button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
-    cursor: pointer;
-  }
-  
-  .prev {
-    left: 0;
-  }
-  
-  .next {
-    right: 0;
-  }
-  
-  .indicators {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  .indicators span {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: #bbb;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .indicators span.active {
-    background-color: #333;
-  }
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.indicators {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.indicators span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicators span.active {
+  background-color: #333;
+}
 
   /* 33333 */
 
@@ -156,6 +160,7 @@ a {
       display: block;
       margin-top: 20px;
       max-width: 80%;
+
     }
   }
 
